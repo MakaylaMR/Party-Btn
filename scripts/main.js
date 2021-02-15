@@ -13,11 +13,14 @@ button.addEventListener('click', updateButton);
 //Function
 function updateButton() {
   if (button.value === 'Dark Mode') {
-    body.classList.toggle('dark');
     button.value = 'Light Mode';
     paragraph.textContent = 'Dark Mode Activated';
   } else {
     button.value = 'Dark Mode';
     paragraph.textContent = 'Light Mode Activated';
   }
+}
+
+function updateBackground() {
+    body.classList.toggle('dark-mode');
 }
