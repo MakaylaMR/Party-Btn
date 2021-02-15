@@ -7,10 +7,12 @@ const body = document.querySelector('body');
 
 
 //Event
+//whats the difference between this and onclick in HTML?
 button.addEventListener('click', updateButton);
 
 
-//Function
+//Button
+//what does tony mean by state of toggle = on/off or open/closed?
 function updateButton() {
   if (button.value === 'Dark Mode') {
     button.value = 'Light Mode';
@@ -21,6 +23,7 @@ function updateButton() {
   }
 }
 
+//Background-color
 function updateBackground() {
     body.classList.toggle('dark-mode');
 }
