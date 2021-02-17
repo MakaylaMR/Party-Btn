@@ -1,5 +1,40 @@
+/*hamburger*/
+#image {
+  width:50px;
+  height:50px;
+}
+.no-show {
+  display:none;
+}
+
+ul li {
+  display:grid;
+}
+
 /*Toggle*/
 .dark-mode {
   background-color: #000;
   color: #FFF;
+}
+
+/*heart logo*/
+
+.left-side {
+  fill: #c51104;
+  stroke: #000;
+}
+
+.right-side {
+  fill: #fe8e86;
+  stroke: #000;
+}
+
+.center {
+  fill: #fe251B;
+  stroke: #000;
+}
+
+svg {
+  max-width: 30vw;
+  height: auto;
 }

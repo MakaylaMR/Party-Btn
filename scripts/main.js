@@ -1,9 +1,9 @@
 'use strict'
 
 //variables
-const button = document.querySelector('input');
-const paragraph = document.querySelector('p');
+const button = document.getElementById('button');
 const body = document.querySelector('body');
+const li = document.getElementById('show');
 
 
 //Event
@@ -16,14 +16,17 @@ button.addEventListener('click', updateButton);
 function updateButton() {
   if (button.value === 'Dark Mode') {
     button.value = 'Light Mode';
-    paragraph.textContent = 'Dark Mode Activated';
   } else {
     button.value = 'Dark Mode';
-    paragraph.textContent = 'Light Mode Activated';
   }
 }
 
 //Background-color
 function updateBackground() {
     body.classList.toggle('dark-mode');
+}
+
+//hamburger menu
+function hamburgerMenu() {
+  li.classList.toggle('no-show');
 }
