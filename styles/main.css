@@ -17,24 +17,23 @@ ul li {
   color: #FFF;
 }
 
-/*heart logo*/
-
-.left-side {
-  fill: #c51104;
-  stroke: #000;
+.image {
+  color: white;
 }
 
-.right-side {
-  fill: #fe8e86;
-  stroke: #000;
+/*main styling*/
+
+h1, h2, h3,p {
+  text-align: center;
 }
 
-.center {
-  fill: #fe251B;
-  stroke: #000;
-}
+/*hero*/
+.hero {
+  background-image: url(../assets/images/full/couple-jeeps.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 
-svg {
-  max-width: 30vw;
-  height: auto;
+  min-height:100vh;
 }
