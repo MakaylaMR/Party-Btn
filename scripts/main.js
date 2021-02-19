@@ -37,7 +37,7 @@ function updateButton() {
 function updateBackground() {
   //background colour
     body.classList.toggle('party-mode');
-  //svgs
+  //SVG's
     one.classList.toggle('one');
     two.classList.toggle('two');
     three.classList.toggle('three');
